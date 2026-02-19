@@ -41,7 +41,13 @@ module.exports = {
     apiKey: process.env.EMAIL_API_KEY || '',
     from: process.env.EMAIL_FROM || 'linkdku@duke.edu',
     host: process.env.EMAIL_API_HOST || 'api.resend.com',
-    path: process.env.EMAIL_API_PATH || '/emails'
+    path: process.env.EMAIL_API_PATH || '/emails',
+    testTo: process.env.EMAIL_TEST_TO || '',
+    smtpHost: process.env.SMTP_HOST || '',
+    smtpPort: Number(process.env.SMTP_PORT || 465),
+    smtpSecure: (process.env.SMTP_SECURE || 'true') === 'true',
+    smtpUser: process.env.SMTP_USER || '',
+    smtpPass: process.env.SMTP_PASS || ''
   },
   database: {
     provider: process.env.DB_PROVIDER || 'json',

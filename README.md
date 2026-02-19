@@ -73,7 +73,10 @@ Home page admin login is now collapsed behind an `Admin Login` button.
 
 ## Email Setup
 
-Current implementation supports a Resend-style API.
+Current implementation supports:
+
+- `EMAIL_PROVIDER=resend` (API mode)
+- `EMAIL_PROVIDER=smtp` (SMTP mode, including Gmail)
 
 Set in `.env`:
 
@@ -83,6 +86,26 @@ Set in `.env`:
 - `EMAIL_API_PATH`
 
 If `EMAIL_API_KEY` is empty, emails are written to `data/email_outbox.json` as dry-run records.
+
+### Gmail SMTP Mode
+
+Set:
+
+```env
+EMAIL_PROVIDER=smtp
+EMAIL_FROM=linkdku@gmail.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=linkdku@gmail.com
+SMTP_PASS=your_gmail_app_password
+```
+
+Notes:
+- Use a Gmail App Password (not your normal Gmail password).
+- Turn on 2-Step Verification in the Gmail account first.
+- Install dependency once:
+  - `npm install`
 
 ## Matching Job
 

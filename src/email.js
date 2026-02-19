@@ -35,6 +35,56 @@ async function sendEmailResult(config, toEmail, subject, text) {
     sentAt: new Date().toISOString()
   };
 
+  if (config.email.provider === 'smtp') {
+    if (!config.email.smtpHost || !config.email.smtpUser || !config.email.smtpPass) {
+      appendOutbox({ ...entry, mode: 'dry-run', response: 'SMTP not configured.' });
+      return { ok: true, dryRun: true };
+    }
+
+    let nodemailer;
+    try {
+      // Optional dependency; install when using SMTP mode.
+      nodemailer = require('nodemailer');
+    } catch {
+      appendOutbox({ ...entry, mode: 'failed', response: 'Missing dependency: nodemailer' });
+      return { ok: false, statusCode: 500 };
+    }
+
+    try {
+      const transporter = nodemailer.createTransport({
+        host: config.email.smtpHost,
+        port: config.email.smtpPort,
+        secure: config.email.smtpSecure,
+        auth: {
+          user: config.email.smtpUser,
+          pass: config.email.smtpPass
+        }
+      });
+
+      const info = await transporter.sendMail({
+        from: config.email.from,
+        to: toEmail,
+        subject,
+        text
+      });
+
+      appendOutbox({
+        ...entry,
+        mode: 'sent',
+        response: JSON.stringify({ messageId: info.messageId })
+      });
+      return { ok: true, statusCode: 202 };
+    } catch (err) {
+      appendOutbox({
+        ...entry,
+        mode: 'failed',
+        statusCode: 500,
+        response: err.message
+      });
+      return { ok: false, statusCode: 500 };
+    }
+  }
+
   if (!config.email.apiKey) {
     appendOutbox({ ...entry, mode: 'dry-run' });
     return { ok: true, dryRun: true };
