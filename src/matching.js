@@ -96,16 +96,24 @@ function buildPreferences(users, topK = 10) {
   const scores = new Map();
 
   users.forEach((u) => {
-    const candidates = [];
+    const sharedLanguageCandidates = [];
+    const fallbackCandidates = [];
     users.forEach((v) => {
       if (u.netid === v.netid) return;
-      if (!hasSharedLanguage(u, v)) return;
       const s = similarity(u, v);
-      candidates.push({ netid: v.netid, score: s });
       scores.set(`${u.netid}:${v.netid}`, s);
+
+      if (hasSharedLanguage(u, v)) {
+        sharedLanguageCandidates.push({ netid: v.netid, score: s });
+      } else {
+        fallbackCandidates.push({ netid: v.netid, score: s });
+      }
     });
-    candidates.sort((a, b) => b.score - a.score);
-    prefs.set(u.netid, candidates.slice(0, topK).map((c) => c.netid));
+
+    // Prefer shared-language partners, but allow fallback so matching still works in small pools.
+    const pool = sharedLanguageCandidates.length ? sharedLanguageCandidates : fallbackCandidates;
+    pool.sort((a, b) => b.score - a.score);
+    prefs.set(u.netid, pool.slice(0, topK).map((c) => c.netid));
   });
 
   return { prefs, scores };
