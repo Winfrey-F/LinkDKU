@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKDKU | Survey</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="survey-header hero compact-hero">
+        <div class="survey-top-row">
+          <button id="logoutBtn" class="btn btn-linklike" type="button">Sign out</button>
+          <div id="meBox" class="mini-id"></div>
+        </div>
+        <h1>LINKDKU Matching Survey</h1>
+        <p>Keep it honest and simple.</p>
+
+        <div class="progress-shell">
+          <div class="progress-label-row">
+            <small id="stepLabel">Step 1 of 4</small>
+            <small id="progressPct">25%</small>
+          </div>
+          <div class="progress-track"><div id="progressFill" class="progress-fill" style="width:25%"></div></div>
+          <div class="step-dots">
+            <span class="step-dot active" data-dot="1"></span>
+            <span class="step-dot" data-dot="2"></span>
+            <span class="step-dot" data-dot="3"></span>
+            <span class="step-dot" data-dot="4"></span>
+          </div>
+        </div>
+      </section>
+
+      <form id="surveyForm">
+        <section class="card survey-step" data-step="1">
+          <h2>SECTION A - Basic</h2>
+
+          <h3>Q1 Major / Academic Area</h3>
+          <div class="options chips">
+            <label class="option"><input type="radio" name="major" value="Natural Sciences" required />Natural Sciences</label>
+            <label class="option"><input type="radio" name="major" value="Social Sciences" />Social Sciences</label>
+            <label class="option"><input type="radio" name="major" value="Arts and Humanities" />Arts and Humanities</label>
+          </div>
+
+          <h3>Q2 Year</h3>
+          <div class="options chips">
+            <label class="option"><input type="radio" name="year" value="Freshman" required />Freshman</label>
+            <label class="option"><input type="radio" name="year" value="Sophomore" />Sophomore</label>
+            <label class="option"><input type="radio" name="year" value="Junior" />Junior</label>
+            <label class="option"><input type="radio" name="year" value="Senior" />Senior</label>
+            <label class="option"><input type="radio" name="year" value="Graduate" />Graduate</label>
+          </div>
+
+          <h3>Q3 Language Comfort Level (choose one or more)</h3>
+          <small>All languages are from DKU language courses. Add custom if needed.</small>
+          <div class="options chips">
+            <label class="option"><input type="checkbox" name="languages" value="English" />English</label>
+            <label class="option"><input type="checkbox" name="languages" value="Chinese" />Chinese</label>
+            <label class="option"><input type="checkbox" name="languages" value="Spanish" />Spanish</label>
+            <label class="option"><input type="checkbox" name="languages" value="German" />German</label>
+            <label class="option"><input type="checkbox" name="languages" value="Japanese" />Japanese</label>
+            <label class="option"><input type="checkbox" name="languages" value="Korean" />Korean</label>
+          </div>
+          <div class="input-row" style="margin-top:10px;">
+            <input type="text" id="languageOther" name="languageOther" placeholder="Other language (optional)" />
+          </div>
+
+          <h3>Q4 What are you mainly looking for? (choose one or more)</h3>
+          <div class="options chips">
+            <label class="option"><input type="checkbox" name="lookingFor" value="Activity partner" />Activity partner</label>
+            <label class="option"><input type="checkbox" name="lookingFor" value="Close friendship" />Close friendship</label>
+            <label class="option"><input type="checkbox" name="lookingFor" value="Academic partner" />Academic partner</label>
+            <label class="option"><input type="checkbox" name="lookingFor" value="Networking / career" />Networking / career</label>
+            <label class="option"><input type="checkbox" name="lookingFor" value="Casual socializing" />Casual socializing</label>
+          </div>
+        </section>
+
+        <section class="card survey-step" data-step="2" hidden>
+          <h2>SECTION B - DKU Community Interest</h2>
+
+          <h3>Q5 Activity Interests (max 3)</h3>
+          <div class="options chips" id="interestsBox">
+            <label class="option"><input type="checkbox" name="activityInterests" value="Performing arts" />Performing arts</label>
+            <label class="option"><input type="checkbox" name="activityInterests" value="Research / academic discussion" />Research / academic discussion</label>
+            <label class="option"><input type="checkbox" name="activityInterests" value="Sports / fitness" />Sports / fitness</label>
+            <label class="option"><input type="checkbox" name="activityInterests" value="Volunteering" />Volunteering</label>
+            <label class="option"><input type="checkbox" name="activityInterests" value="Entrepreneurship" />Entrepreneurship</label>
+            <label class="option"><input type="checkbox" name="activityInterests" value="Social events" />Social events</label>
+            <label class="option"><input type="checkbox" name="activityInterests" value="Gaming / online communities" />Gaming / online communities</label>
+          </div>
+
+          <h3>Q6 Would you like to meet people from different cultural backgrounds?</h3>
+          <div class="bubble-row" data-name="dkuOpenness" data-default="3" data-left="Prefer similar" data-right="Strongly prefer diversity"></div>
+
+          <h3>Q7 Preferred interaction style</h3>
+          <div class="bubble-row" data-name="interactionStyle" data-default="3" data-left="Mostly online" data-right="Mostly in-person"></div>
+
+          <h3>Q8 Openness to trying new activities</h3>
+          <div class="bubble-row" data-name="opennessToNewActivities" data-default="3" data-left="Rarely" data-right="Very open"></div>
+        </section>
+
+        <section class="card survey-step" data-step="3" hidden>
+          <h2>SECTION C - Social Style Spectrum</h2>
+          <small>Choose one circle for each (1 to 5).</small>
+
+          <h3>Q9 Planning Style</h3>
+          <div class="bubble-row" data-name="planningStyle" data-default="3" data-left="Structured" data-right="Spontaneous"></div>
+
+          <h3>Q10 Social Energy</h3>
+          <div class="bubble-row" data-name="socialEnergy" data-default="3" data-left="Quiet recharge" data-right="Social energizer"></div>
+
+          <h3>Q11 Communication Style</h3>
+          <div class="bubble-row" data-name="communicationStyle" data-default="3" data-left="Harmony oriented" data-right="Debate oriented"></div>
+
+          <h3>Q12 Conversation Preference</h3>
+          <div class="bubble-row" data-name="conversationPreference" data-default="3" data-left="Casual talk" data-right="Deep conversation"></div>
+
+          <h3>Q13 Decision Making</h3>
+          <div class="bubble-row" data-name="decisionMaking" data-default="3" data-left="Careful thinking" data-right="Quick action"></div>
+
+          <h3>Q14 Conflict Handling</h3>
+          <div class="bubble-row" data-name="conflictHandling" data-default="3" data-left="Avoid conflict" data-right="Address directly"></div>
+
+          <h3>Q15 Emotional Sharing</h3>
+          <div class="bubble-row" data-name="emotionalSharing" data-default="3" data-left="Private" data-right="Open"></div>
+        </section>
+
+        <section class="card survey-step" data-step="4" hidden>
+          <h2>SECTION D - Compatibility Preference</h2>
+          <h3>Q16 What qualities do you value most in friends? (choose 2)</h3>
+          <div class="options chips" id="qualitiesBox">
+            <label class="option"><input type="checkbox" name="qualities" value="Reliability" />Reliability</label>
+            <label class="option"><input type="checkbox" name="qualities" value="Humor" />Humor</label>
+            <label class="option"><input type="checkbox" name="qualities" value="Emotional support" />Emotional support</label>
+            <label class="option"><input type="checkbox" name="qualities" value="Intellectual discussion" />Intellectual discussion</label>
+            <label class="option"><input type="checkbox" name="qualities" value="Shared hobbies" />Shared hobbies</label>
+            <label class="option"><input type="checkbox" name="qualities" value="Adventurousness" />Adventurousness</label>
+          </div>
+
+          <div class="card soft-note">
+            <p>You are almost done. Submit and wait for your LINKDKU email result.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="actions step-actions">
+            <button id="prevStepBtn" class="btn btn-secondary" type="button">Previous</button>
+            <button id="nextStepBtn" class="btn btn-secondary next-side" type="button">Next</button>
+            <button id="submitSurveyBtn" class="btn btn-primary next-side" type="submit" style="display:none;">Submit survey</button>
+          </div>
+          <div id="surveyStatus" class="status"></div>
+        </section>
+      </form>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKDKU | Welcome</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero hand-card">
+        <header class="welcome-top right-only">
+          <div class="account-menu" id="accountMenuWrap">
+            <button class="account-btn" id="accountBtn">Account</button>
+            <div class="account-dropdown" id="accountDropdown">
+              <a href="#" id="profileLink">Profile</a>
+              <a href="#" id="preferencesLink">Preferences</a>
+              <a href="#" id="historyLink">Link history</a>
+              <button id="userLogoutBtn" class="menu-signout">Sign out</button>
+            </div>
+          </div>
+        </header>
+
+        <section class="welcome-main">
+          <h1 class="hand-title"><span class="word-link">Link</span> <span class="word-dku">DKU</span></h1>
+          <p class="netid-line"><span id="welcomeNetid">netid</span>, welcome!</p>
+
+          <div class="welcome-actions">
+            <button id="howItWorksBtn" class="oval-btn oval-ghost">How it works</button>
+            <a href="/survey.html" class="oval-btn join-now">Join now</a>
+          </div>
+        </section>
+
+        <p class="story-text">
+          Move beyond simple categories. We map your academic style, cultural comfort, and social energy to find connections that truly resonate.
+        </p>
+      </section>
+
+      <section class="card" id="howItWorksPanel" style="display:none;">
+        <h2>How LINKDKU Works</h2>
+        <p>1. Complete the survey in 4 short pages.</p>
+        <p>2. LINKDKU matches by interests, social style, openness, and background compatibility.</p>
+        <p>3. Results go to <code>netid@duke.edu</code>.</p>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

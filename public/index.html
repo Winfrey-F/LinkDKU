@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKDKU | Start</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container home-center-wrap">
+      <section class="hero home-center">
+        <h1 class="home-title">
+          <span class="word-link">LINK</span><span class="word-dku">DKU</span>
+        </h1>
+        <p class="home-sub">Find people who actually match your style.</p>
+
+        <div class="home-split">
+          <div class="split-block">
+            <button id="dukeOauthBtn" class="btn btn-primary home-big-btn">Duke Login</button>
+          </div>
+
+          <div class="split-block plain-admin">
+            <button id="showAdminPanelBtn" class="btn btn-secondary">Admin Login</button>
+            <div id="homeAdminPanel" class="admin-panel" hidden>
+              <div class="input-row">
+                <input id="homeAdminUsername" type="text" placeholder="Admin ID" value="yh405" />
+                <input id="homeAdminPassword" type="password" placeholder="Password" value="123456" />
+                <button id="homeAdminLoginBtn" class="btn btn-secondary">Enter Admin Dashboard</button>
+              </div>
+              <div id="homeAdminStatus" class="status"></div>
+            </div>
+          </div>
+        </div>
+
+        <section class="fallback-row">
+          <h3>Fallback NetID Login</h3>
+          <div class="input-row">
+            <input id="netidInput" type="text" placeholder="Enter netid (e.g. sl123)" />
+            <button id="devLoginBtn" class="btn btn-secondary">Continue</button>
+          </div>
+        </section>
+
+        <div id="loginStatus" class="status"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

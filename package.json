@@ -1,0 +1,12 @@
+{
+  "name": "linkdku",
+  "version": "0.1.0",
+  "description": "LINKDKU survey, matching, and email automation",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "run:matching": "node src/server.js --run-matching"
+  }
+}

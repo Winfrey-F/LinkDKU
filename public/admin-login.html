@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKDKU | Admin Login</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <h1>Admin Sign In</h1>
+        <p>This dashboard is restricted. Sign in with your admin username and password.</p>
+
+        <div class="card" style="margin: 0;">
+          <div class="input-row">
+            <input id="adminUsername" type="text" placeholder="Admin username" />
+            <input id="adminPassword" type="password" placeholder="Admin password" />
+            <button id="adminLoginBtn" class="btn btn-primary">Login</button>
+          </div>
+          <div id="adminLoginStatus" class="status"></div>
+        </div>
+
+        <div class="actions">
+          <a href="/" class="btn btn-secondary">Back to home</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

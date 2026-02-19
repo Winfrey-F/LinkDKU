@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKDKU | Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <div class="brand-row"><div></div><div id="adminWho"></div></div>
+        <h1>Survey and Matching Control Panel</h1>
+        <p>Private dashboard for viewing response data, match output, and email delivery logs.</p>
+        <div class="actions">
+          <button id="runMatchingBtn" class="btn btn-primary">Run matching now</button>
+          <button id="refreshAdminBtn" class="btn btn-secondary">Refresh data</button>
+          <button id="adminLogoutBtn" class="btn btn-secondary">Logout admin</button>
+        </div>
+        <div id="adminStatus" class="status"></div>
+      </section>
+
+      <section class="card">
+        <h2>Overview</h2>
+        <div id="summaryGrid" class="summary-grid"></div>
+      </section>
+
+      <section class="card">
+        <h2>Latest Match Run</h2>
+        <div id="latestRunMeta"></div>
+        <div class="table-wrap" style="margin-top: 10px;">
+          <table>
+            <thead>
+              <tr>
+                <th>Student A</th>
+                <th>Student B</th>
+                <th>Score</th>
+                <th>Explanation</th>
+              </tr>
+            </thead>
+            <tbody id="matchesBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Recent Survey Responses</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>NetID</th>
+                <th>Major / Year</th>
+                <th>Languages</th>
+                <th>Activity Interests</th>
+                <th>Updated At</th>
+              </tr>
+            </thead>
+            <tbody id="responsesBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Recent Email Logs</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>To</th>
+                <th>Status</th>
+                <th>Subject</th>
+                <th>Sent At</th>
+              </tr>
+            </thead>
+            <tbody id="emailsBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

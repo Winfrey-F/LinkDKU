@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKDKU | Duke Login</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container home-center-wrap">
+      <section class="hero home-center">
+        <h1 class="home-title"><span class="word-link">DUKE</span> <span class="word-dku">LOGIN</span></h1>
+        <p class="home-sub">Enter your netid to continue.</p>
+
+        <div class="split-block plain-admin" style="max-width:680px;margin:0 auto;">
+          <div class="input-row" style="justify-content:center;">
+            <input id="dukeNetidInput" type="text" placeholder="NetID (e.g. yh405)" />
+            <button id="dukeFallbackLoginBtn" class="btn btn-primary">Continue</button>
+          </div>
+          <div id="dukeLoginStatus" class="status"></div>
+        </div>
+
+        <div class="actions" style="justify-content:center;margin-top:16px;">
+          <a href="/" class="btn btn-secondary">Back</a>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
