@@ -16,7 +16,7 @@ async function api(path, options = {}) {
   }
 
   if (!res.ok) {
-    throw new Error(json.error || `Request failed: ${res.status}`);
+    throw new Error(json.error || json.message || `Request failed: ${res.status}`);
   }
 
   return json;

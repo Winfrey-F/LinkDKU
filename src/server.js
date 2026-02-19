@@ -124,6 +124,12 @@ function requireAdmin(session, res) {
   return true;
 }
 
+function upsertUserPreserveEmail(netid, fallbackEmail, extra = {}) {
+  const existing = storage.getUserByNetid(netid);
+  const email = existing?.email || fallbackEmail;
+  return storage.upsertUser({ netid, email, ...extra });
+}
+
 function normalizeSurveyInput(body, netid) {
   return {
     netid,
@@ -187,8 +193,11 @@ async function executeMatchingAndEmails(triggeredBy = 'schedule') {
       'Thank you for joining LINKDKU.'
     ].join('\n');
 
-    await sendEmailResult(config, a.email || `${match.netidA}@duke.edu`, 'Your LINKDKU Match Result', textA);
-    await sendEmailResult(config, b.email || `${match.netidB}@duke.edu`, 'Your LINKDKU Match Result', textB);
+    const toA = config.email.testTo || a.email || `${match.netidA}@duke.edu`;
+    const toB = config.email.testTo || b.email || `${match.netidB}@duke.edu`;
+
+    await sendEmailResult(config, toA, 'Your LINKDKU Match Result', textA);
+    await sendEmailResult(config, toB, 'Your LINKDKU Match Result', textB);
   }
 
   return { ok: true, payload };
@@ -237,7 +246,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    const user = storage.upsertUser({ netid, email: `${netid}@duke.edu` });
+    const user = upsertUserPreserveEmail(netid, `${netid}@duke.edu`);
     session.user = user;
     sendJson(res, 200, { ok: true, user });
     return;
@@ -252,7 +261,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    const user = storage.upsertUser({ netid, email: `${netid}@duke.edu`, authProvider: 'duke-fallback' });
+    const user = upsertUserPreserveEmail(netid, `${netid}@duke.edu`, { authProvider: 'duke-fallback' });
     session.user = user;
     sendJson(res, 200, { ok: true, user });
     return;
@@ -312,10 +321,8 @@ const server = http.createServer(async (req, res) => {
         return;
       }
 
-      const user = storage.upsertUser({
-        netid: profile.netid.toLowerCase(),
-        email: profile.email || `${profile.netid.toLowerCase()}@duke.edu`
-      });
+      const normalizedNetid = profile.netid.toLowerCase();
+      const user = upsertUserPreserveEmail(normalizedNetid, profile.email || `${normalizedNetid}@duke.edu`);
       session.user = user;
       redirect(res, '/dashboard.html');
     } catch (err) {
@@ -364,6 +371,9 @@ const server = http.createServer(async (req, res) => {
   if (req.method === 'POST' && url.pathname === '/api/admin/run-matching') {
     if (!requireAdmin(session, res)) return;
     const result = await executeMatchingAndEmails('manual');
+    if (!result.ok && !result.error) {
+      result.error = result.message || 'Matching failed.';
+    }
     sendJson(res, result.ok ? 200 : 400, result);
     return;
   }
