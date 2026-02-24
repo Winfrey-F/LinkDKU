@@ -403,6 +403,19 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  if (req.method === 'GET' && url.pathname === '/api/admin/report-html') {
+    if (!requireAdmin(session, res)) return;
+    const reportPath = path.join(process.cwd(), 'evaluation', 'output', 'report.html');
+    if (!fs.existsSync(reportPath)) {
+      sendJson(res, 404, { error: 'Chart report not found. Run matching first to generate it.' });
+      return;
+    }
+    const html = fs.readFileSync(reportPath, 'utf8');
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    res.end(html);
+    return;
+  }
+
   if (req.method === 'GET' && url.pathname === '/api/admin/dashboard') {
     if (!requireAdmin(session, res)) return;
     const surveys = storage.getAllSurvey();

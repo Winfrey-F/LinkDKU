@@ -15,6 +15,7 @@ npm run evaluate
 | 文件 | 用途 |
 |------|------|
 | `report.txt` | 文本报告：相似度分布、匹配质量、多样性、覆盖率、算法 vs 随机、权重实验摘要及建议 |
+| `report.html` | 带图表的 HTML 报告（相似度直方图、算法 vs 随机、权重实验、多样性），用浏览器打开查看 |
 | `similarity_distribution.json` | 全用户对相似度统计与直方图，供绘图 |
 | `network_graph.json` | 节点（学生 + 专业/年级/语言）、边（匹配对 + 权重），可供 networkx/matplotlib 等可视化 |
 | `match_quality_comparison.json` | 算法 vs 随机对比 + 多组权重实验的得分与覆盖率，供对比图 |

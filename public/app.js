@@ -546,30 +546,19 @@ async function initAdminDashboard() {
     }
   });
 
-  const reportWrap = document.getElementById('readReportWrap');
   const readReportBtn = document.getElementById('readReportBtn');
   const reportModal = document.getElementById('reportModal');
-  const reportContent = document.getElementById('reportContent');
+  const reportFrame = document.getElementById('reportFrame');
   const closeReportBtn = document.getElementById('closeReportBtn');
 
-  if (readReportBtn && reportModal && reportContent) {
-    readReportBtn.addEventListener('click', async () => {
-      try {
-        const res = await fetch('/api/admin/report', { credentials: 'include' });
-        if (!res.ok) {
-          const err = await res.json().catch(() => ({}));
-          setStatus(statusEl, err.error || 'Report not available.', 'error');
-          return;
-        }
-        const text = await res.text();
-        reportContent.textContent = text;
-        reportModal.setAttribute('aria-hidden', 'false');
-      } catch (e) {
-        setStatus(statusEl, e.message || 'Failed to load report.', 'error');
-      }
+  if (readReportBtn && reportModal && reportFrame) {
+    readReportBtn.addEventListener('click', () => {
+      reportFrame.src = '/api/admin/report-html';
+      reportModal.setAttribute('aria-hidden', 'false');
     });
     function closeReportModal() {
       reportModal.setAttribute('aria-hidden', 'true');
+      reportFrame.src = 'about:blank';
     }
     if (closeReportBtn) closeReportBtn.addEventListener('click', closeReportModal);
     if (reportModal) {

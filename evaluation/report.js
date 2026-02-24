@@ -2,13 +2,12 @@
  * Evaluation report text generation
  */
 
-function generateReport(result, weightResults) {
+function generateReport(result) {
   const lines = [];
   const sim = result.similarityDistribution;
   const quality = result.matchQuality;
   const div = result.diversity;
   const cov = result.coverage;
-  const vsR = result.algorithmVsRandom;
 
   lines.push('========================================');
   lines.push('  LINKDKU Matching Algorithm Evaluation Report');
@@ -51,22 +50,19 @@ function generateReport(result, weightResults) {
   lines.push(`  Coverage: ${cov.coveragePercent}%`);
   lines.push('');
 
-  lines.push('6. Algorithm vs random matching');
-  lines.push(`  Algorithm average similarity: ${vsR.algorithmAverageSimilarity}`);
-  lines.push(`  Random average similarity: ${vsR.randomAverageSimilarity} (${vsR.randomIterations} iterations)`);
-  lines.push(`  Relative improvement: ${vsR.improvementPercent}%`);
-  lines.push('  Note: Positive value means the algorithm outperforms random pairing.');
-  lines.push('');
+  const dimBreakdown = result.dimensionBreakdown;
+  if (dimBreakdown) {
+    lines.push('6. Similarity breakdown by dimension (matched pairs)');
+    lines.push('   Average similarity in each dimension across current matches:');
+    dimBreakdown.dimensionOrder.forEach((dim) => {
+      const d = dimBreakdown.breakdown[dim];
+      lines.push(`   ${d.label}: ${d.average.toFixed(4)} (min: ${d.stats.min}, max: ${d.stats.max})`);
+    });
+    lines.push('   Note: Shows which dimensions contribute most to your current pair scores.');
+    lines.push('');
+  }
 
-  lines.push('7. Weight configuration experiments');
-  weightResults.forEach((r) => {
-    lines.push(`  [${r.name}]`);
-    lines.push(`    Weights: ${JSON.stringify(r.weights)}`);
-    lines.push(`    Avg score: ${r.averageScore.toFixed(4)}, Match count: ${r.matchCount}, Coverage: ${r.coverage}%`);
-  });
-  lines.push('');
-
-  lines.push('8. Interpretation and recommendations');
+  lines.push(dimBreakdown ? '7. Interpretation and recommendations' : '6. Interpretation and recommendations');
   if (sim.stats.std < 0.1) {
     lines.push('  - Similarity distribution is narrow; consider adding more discriminative features or weights.');
   }
@@ -76,10 +72,6 @@ function generateReport(result, weightResults) {
   if (cov.coveragePercent < 90 && cov.totalUsers > 2) {
     lines.push('  - Some users remain unmatched; check preference list length or Gale–Shapley implementation.');
   }
-  if (vsR.improvementPercent > 0) {
-    lines.push('  - The algorithm improves over random matching; the matching strategy is effective.');
-  }
-  lines.push('  - Use weight experiments to choose a configuration that best balances quality and diversity.');
   lines.push('');
 
   lines.push('========================================');

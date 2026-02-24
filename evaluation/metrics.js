@@ -204,6 +204,35 @@ function coverageMetrics(rawUsers, matches) {
   };
 }
 
+/** 当前匹配对在各维度上的相似度分解（interests, socialStyle, openness, background） */
+function matchDimensionBreakdown(rawUsers, matches) {
+  const users = rawUsers.map((u) => encodeUser(u));
+  const byNetid = new Map(users.map((u) => [u.netid, u]));
+  const dims = ['interests', 'socialStyle', 'openness', 'background'];
+  const dimLabels = { interests: 'Interests', socialStyle: 'Social style', openness: 'Openness', background: 'Background' };
+  const values = { interests: [], socialStyle: [], openness: [], background: [] };
+
+  matches.forEach((m) => {
+    const a = byNetid.get(m.netidA);
+    const b = byNetid.get(m.netidB);
+    if (!a || !b) return;
+    dims.forEach((dim) => {
+      values[dim].push(cosine(a.groups[dim], b.groups[dim]));
+    });
+  });
+
+  const breakdown = {};
+  dims.forEach((dim) => {
+    const v = values[dim];
+    breakdown[dim] = {
+      label: dimLabels[dim],
+      average: v.length ? v.reduce((s, x) => s + x, 0) / v.length : 0,
+      stats: basicStats(v)
+    };
+  });
+  return { breakdown, dimensionOrder: dims };
+}
+
 /** 随机匹配：多次随机配对取平均相似度 */
 function randomMatchScores(rawUsers, weights = DEFAULT_WEIGHTS, iterations = 50) {
   const { encodedUsers, pairs } = allPairSimilarities(rawUsers, weights);
@@ -256,6 +285,7 @@ module.exports = {
   matchQuality,
   diversityMetrics,
   coverageMetrics,
+  matchDimensionBreakdown,
   randomMatchScores,
   algorithmVsRandom
 };
