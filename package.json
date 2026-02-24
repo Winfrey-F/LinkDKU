@@ -11,6 +11,7 @@
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "run:matching": "node src/server.js --run-matching",
-    "seed:fake": "node scripts/seed-fake-accounts.js"
+    "seed:fake": "node scripts/seed-fake-accounts.js",
+    "db:reset": "node scripts/reset-database.js"
   }
 }
