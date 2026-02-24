@@ -1,269 +1,2381 @@
 {
   "nodes": [
     {
-      "id": "yh405",
+      "id": "du001",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du002",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du003",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Spanish",
+        "Korean",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du004",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Japanese",
+        "Korean",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du005",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "id": "du006",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du007",
       "major": "Natural Sciences",
       "year": "Junior",
       "languages": [
+        "German",
+        "Spanish",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du008",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Japanese",
+        "English",
+        "Chinese",
+        "German"
+      ]
+    },
+    {
+      "id": "du009",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du010",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du011",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Korean",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du012",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Spanish",
+        "German",
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du013",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du014",
+      "major": "Arts and Humanities",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du015",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish",
         "English",
         "Chinese"
       ]
     },
     {
-      "id": "yf192",
+      "id": "du016",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Korean",
+        "Spanish",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du017",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "id": "du018",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du019",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese",
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du020",
+      "major": "Natural Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du021",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du022",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du023",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du024",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Japanese",
+        "German",
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du025",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du026",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du027",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish",
+        "English",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du028",
+      "major": "Natural Sciences",
+      "year": "Junior",
+      "languages": [
+        "Japanese",
+        "English",
+        "Chinese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du029",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du030",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du031",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese",
+        "Spanish",
+        "German"
+      ]
+    },
+    {
+      "id": "du032",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Spanish",
+        "German",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du033",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du034",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du035",
+      "major": "Arts and Humanities",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du036",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Spanish",
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du037",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du038",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du039",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du040",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Korean",
+        "English",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du041",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du042",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du043",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Chinese",
+        "Korean",
+        "German"
+      ]
+    },
+    {
+      "id": "du044",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "German",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du045",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du046",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du047",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Chinese",
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du048",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Korean",
+        "German"
+      ]
+    },
+    {
+      "id": "du049",
+      "major": "Natural Sciences",
+      "year": "Junior",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du050",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du051",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Spanish",
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du052",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish",
+        "Korean",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du053",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du054",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du055",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Spanish",
+        "Korean",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du056",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "Spanish",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du057",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du058",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du059",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Chinese",
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du060",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du061",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du062",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du063",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Korean",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du064",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese",
+        "Korean",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du065",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du066",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du067",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "Spanish",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du068",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Chinese",
+        "German"
+      ]
+    },
+    {
+      "id": "du069",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du070",
+      "major": "Natural Sciences",
+      "year": "Junior",
+      "languages": [
+        "Korean",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du071",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "Japanese",
+        "English"
+      ]
+    },
+    {
+      "id": "du072",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Spanish",
+        "German",
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du073",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du074",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du075",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Spanish",
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du076",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "Spanish",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du077",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du078",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du079",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Japanese",
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du080",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du081",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du082",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du083",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Chinese",
+        "English",
+        "German"
+      ]
+    },
+    {
+      "id": "du084",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "German",
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du085",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du086",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du087",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Chinese",
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du088",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Chinese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du089",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du090",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du091",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du092",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Spanish",
+        "German",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du093",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du094",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du095",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Japanese",
+        "English"
+      ]
+    },
+    {
+      "id": "du096",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "Spanish",
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du097",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du098",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du099",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "English",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du100",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Korean",
+        "English",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du101",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du102",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du103",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Spanish",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du104",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Japanese",
+        "German",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du105",
+      "major": "Social Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du106",
       "major": "Natural Sciences",
       "year": "Sophomore",
       "languages": [
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du107",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du108",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Korean",
+        "German"
+      ]
+    },
+    {
+      "id": "du109",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du110",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du111",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du112",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Korean",
+        "English",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du113",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du114",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du115",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du116",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Spanish",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du117",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du118",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du119",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du120",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du121",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du122",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du123",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Korean",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du124",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Japanese",
+        "Korean",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du125",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du126",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du127",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Spanish",
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du128",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Chinese",
+        "German"
+      ]
+    },
+    {
+      "id": "du129",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "id": "du130",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Korean",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du131",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese",
+        "Korean",
+        "German"
+      ]
+    },
+    {
+      "id": "du132",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "English",
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du133",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du134",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du135",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Korean",
+        "English"
+      ]
+    },
+    {
+      "id": "du136",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "Korean",
+        "Spanish",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du137",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "id": "du138",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du139",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du140",
+      "major": "Arts and Humanities",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du141",
+      "major": "Social Sciences",
+      "year": "Senior",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du142",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du143",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du144",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "German",
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du145",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "du146",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du147",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Spanish",
+        "English"
+      ]
+    },
+    {
+      "id": "du148",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Chinese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du149",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "id": "du150",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du151",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Spanish",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du152",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "English",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du153",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "id": "du154",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "Korean",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du155",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
         "English",
         "Chinese"
       ]
     },
     {
-      "id": "tu001",
+      "id": "du156",
       "major": "Natural Sciences",
       "year": "Sophomore",
       "languages": [
         "German",
-        "Japanese"
-      ]
-    },
-    {
-      "id": "tu002",
-      "major": "Social Sciences",
-      "year": "Junior",
-      "languages": [
         "Spanish",
-        "German",
-        "Japanese"
-      ]
-    },
-    {
-      "id": "tu003",
-      "major": "Arts and Humanities",
-      "year": "Senior",
-      "languages": [
-        "Chinese",
-        "Spanish"
-      ]
-    },
-    {
-      "id": "tu004",
-      "major": "Natural Sciences",
-      "year": "Graduate",
-      "languages": [
-        "English",
-        "Chinese",
-        "Spanish"
-      ]
-    },
-    {
-      "id": "tu005",
-      "major": "Social Sciences",
-      "year": "Freshman",
-      "languages": [
         "Korean",
         "English"
       ]
     },
     {
-      "id": "tu006",
-      "major": "Arts and Humanities",
-      "year": "Sophomore",
-      "languages": [
-        "Japanese",
-        "Korean",
-        "English"
-      ]
-    },
-    {
-      "id": "tu007",
-      "major": "Natural Sciences",
-      "year": "Junior",
-      "languages": [
-        "German",
-        "Japanese"
-      ]
-    },
-    {
-      "id": "tu008",
-      "major": "Social Sciences",
-      "year": "Senior",
-      "languages": [
-        "Spanish",
-        "German",
-        "Japanese"
-      ]
-    },
-    {
-      "id": "tu009",
-      "major": "Arts and Humanities",
-      "year": "Graduate",
-      "languages": [
-        "Chinese",
-        "Spanish"
-      ]
-    },
-    {
-      "id": "tu010",
-      "major": "Natural Sciences",
-      "year": "Freshman",
-      "languages": [
-        "English",
-        "Chinese",
-        "Spanish"
-      ]
-    },
-    {
-      "id": "tu011",
-      "major": "Social Sciences",
-      "year": "Sophomore",
-      "languages": [
-        "Korean",
-        "English"
-      ]
-    },
-    {
-      "id": "tu012",
-      "major": "Arts and Humanities",
-      "year": "Junior",
-      "languages": [
-        "Japanese",
-        "Korean",
-        "English"
-      ]
-    },
-    {
-      "id": "tu013",
-      "major": "Natural Sciences",
-      "year": "Senior",
-      "languages": [
-        "German",
-        "Japanese"
-      ]
-    },
-    {
-      "id": "tu014",
-      "major": "Social Sciences",
-      "year": "Graduate",
-      "languages": [
-        "Spanish",
-        "German",
-        "Japanese"
-      ]
-    },
-    {
-      "id": "tu015",
-      "major": "Arts and Humanities",
-      "year": "Freshman",
-      "languages": [
-        "Chinese",
-        "Spanish"
-      ]
-    },
-    {
-      "id": "tu016",
-      "major": "Natural Sciences",
-      "year": "Sophomore",
-      "languages": [
-        "English",
-        "Chinese",
-        "Spanish"
-      ]
-    },
-    {
-      "id": "tu017",
+      "id": "du157",
       "major": "Social Sciences",
       "year": "Junior",
       "languages": [
-        "Korean",
-        "English"
+        "Korean"
       ]
     },
     {
-      "id": "tu018",
+      "id": "du158",
       "major": "Arts and Humanities",
       "year": "Senior",
       "languages": [
         "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du159",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Chinese",
+        "German",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du160",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "English",
+        "Japanese",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du161",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du162",
+      "major": "Social Sciences",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du163",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "Chinese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du164",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese",
+        "German",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du165",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du166",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
         "Korean",
         "English"
       ]
     },
     {
-      "id": "tu019",
+      "id": "du167",
       "major": "Natural Sciences",
       "year": "Graduate",
+      "languages": [
+        "Korean",
+        "English",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du168",
+      "major": "Social Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Korean",
+        "German"
+      ]
+    },
+    {
+      "id": "du169",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du170",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du171",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Chinese",
+        "Spanish",
+        "German"
+      ]
+    },
+    {
+      "id": "du172",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "Korean",
+        "English",
+        "Chinese",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du173",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du174",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du175",
+      "major": "Natural Sciences",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du176",
+      "major": "Arts and Humanities",
+      "year": "Freshman",
+      "languages": [
+        "German",
+        "Spanish",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du177",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du178",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du179",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "Japanese",
+        "English"
+      ]
+    },
+    {
+      "id": "du180",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Korean"
+      ]
+    },
+    {
+      "id": "du181",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du182",
+      "major": "Arts and Humanities",
+      "year": "Junior",
       "languages": [
         "German",
         "Japanese"
       ]
     },
     {
-      "id": "tu020",
+      "id": "du183",
+      "major": "Social Sciences",
+      "year": "Senior",
+      "languages": [
+        "Chinese",
+        "English",
+        "German"
+      ]
+    },
+    {
+      "id": "du184",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "Korean",
+        "Chinese",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du185",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du186",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "German",
+        "English"
+      ]
+    },
+    {
+      "id": "du187",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "Chinese",
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du188",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Japanese",
+        "Spanish",
+        "Chinese",
+        "German"
+      ]
+    },
+    {
+      "id": "du189",
       "major": "Social Sciences",
       "year": "Freshman",
       "languages": [
-        "Spanish",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du190",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Korean",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du191",
+      "major": "Social Sciences",
+      "year": "Senior",
+      "languages": [
+        "Korean",
         "German",
         "Japanese"
+      ]
+    },
+    {
+      "id": "du192",
+      "major": "Arts and Humanities",
+      "year": "Graduate",
+      "languages": [
+        "German",
+        "English",
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du193",
+      "major": "Natural Sciences",
+      "year": "Freshman",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "id": "du194",
+      "major": "Social Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "German",
+        "Spanish"
+      ]
+    },
+    {
+      "id": "du195",
+      "major": "Arts and Humanities",
+      "year": "Junior",
+      "languages": [
+        "Korean",
+        "English",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "du196",
+      "major": "Natural Sciences",
+      "year": "Graduate",
+      "languages": [
+        "Spanish",
+        "Korean",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "id": "du197",
+      "major": "Arts and Humanities",
+      "year": "Freshman",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du198",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "Japanese",
+        "German"
+      ]
+    },
+    {
+      "id": "du199",
+      "major": "Social Sciences",
+      "year": "Junior",
+      "languages": [
+        "Chinese",
+        "German",
+        "Japanese"
+      ]
+    },
+    {
+      "id": "du200",
+      "major": "Arts and Humanities",
+      "year": "Senior",
+      "languages": [
+        "German",
+        "English",
+        "Japanese",
+        "Chinese"
       ]
     }
   ],
   "edges": [
     {
-      "source": "yf192",
-      "target": "yh405",
-      "weight": 0.9625
+      "source": "du156",
+      "target": "du096",
+      "weight": 0.975
     },
     {
-      "source": "tu006",
-      "target": "tu011",
-      "weight": 0.7571
+      "source": "du064",
+      "target": "du124",
+      "weight": 0.95
     },
     {
-      "source": "tu007",
-      "target": "tu002",
-      "weight": 0.7571
+      "source": "du169",
+      "target": "du049",
+      "weight": 0.95
     },
     {
-      "source": "tu009",
-      "target": "tu004",
-      "weight": 0.7571
+      "source": "du067",
+      "target": "du127",
+      "weight": 0.94
     },
     {
-      "source": "tu010",
-      "target": "tu015",
-      "weight": 0.7571
+      "source": "du123",
+      "target": "du183",
+      "weight": 0.94
     },
     {
-      "source": "tu017",
-      "target": "tu012",
-      "weight": 0.7571
+      "source": "du100",
+      "target": "du175",
+      "weight": 0.9322
     },
     {
-      "source": "tu019",
-      "target": "tu014",
-      "weight": 0.7571
+      "source": "du072",
+      "target": "du012",
+      "weight": 0.9312
     },
     {
-      "source": "tu008",
-      "target": "tu013",
-      "weight": 0.7571
+      "source": "du108",
+      "target": "du048",
+      "weight": 0.9312
     },
     {
-      "source": "tu018",
-      "target": "tu005",
-      "weight": 0.5217
+      "source": "du132",
+      "target": "du192",
+      "weight": 0.9312
     },
     {
-      "source": "tu003",
-      "target": "tu016",
-      "weight": 0.4847
+      "source": "du186",
+      "target": "du036",
+      "weight": 0.9287
     },
     {
-      "source": "tu020",
-      "target": "tu001",
-      "weight": 0.4794
+      "source": "du190",
+      "target": "du010",
+      "weight": 0.925
+    },
+    {
+      "source": "du082",
+      "target": "du022",
+      "weight": 0.925
+    },
+    {
+      "source": "du106",
+      "target": "du166",
+      "weight": 0.925
+    },
+    {
+      "source": "du118",
+      "target": "du058",
+      "weight": 0.925
+    },
+    {
+      "source": "du154",
+      "target": "du034",
+      "weight": 0.925
+    },
+    {
+      "source": "du066",
+      "target": "du006",
+      "weight": 0.9187
+    },
+    {
+      "source": "du150",
+      "target": "du090",
+      "weight": 0.9187
+    },
+    {
+      "source": "du102",
+      "target": "du042",
+      "weight": 0.9187
+    },
+    {
+      "source": "du116",
+      "target": "du176",
+      "weight": 0.9167
+    },
+    {
+      "source": "du092",
+      "target": "du032",
+      "weight": 0.9167
+    },
+    {
+      "source": "du195",
+      "target": "du015",
+      "weight": 0.91
+    },
+    {
+      "source": "du180",
+      "target": "du060",
+      "weight": 0.9062
+    },
+    {
+      "source": "du144",
+      "target": "du024",
+      "weight": 0.9062
+    },
+    {
+      "source": "du098",
+      "target": "du158",
+      "weight": 0.9042
+    },
+    {
+      "source": "du110",
+      "target": "du170",
+      "weight": 0.9042
+    },
+    {
+      "source": "du099",
+      "target": "du039",
+      "weight": 0.8962
+    },
+    {
+      "source": "du188",
+      "target": "du068",
+      "weight": 0.8917
+    },
+    {
+      "source": "du140",
+      "target": "du020",
+      "weight": 0.8917
+    },
+    {
+      "source": "du080",
+      "target": "du200",
+      "weight": 0.8917
+    },
+    {
+      "source": "du136",
+      "target": "du076",
+      "weight": 0.8875
+    },
+    {
+      "source": "du172",
+      "target": "du112",
+      "weight": 0.8875
+    },
+    {
+      "source": "du168",
+      "target": "du018",
+      "weight": 0.885
+    },
+    {
+      "source": "du191",
+      "target": "du131",
+      "weight": 0.8817
+    },
+    {
+      "source": "du095",
+      "target": "du035",
+      "weight": 0.8817
+    },
+    {
+      "source": "du107",
+      "target": "du047",
+      "weight": 0.8817
+    },
+    {
+      "source": "du138",
+      "target": "du078",
+      "weight": 0.8812
+    },
+    {
+      "source": "du031",
+      "target": "du181",
+      "weight": 0.8787
+    },
+    {
+      "source": "du130",
+      "target": "du070",
+      "weight": 0.875
+    },
+    {
+      "source": "du114",
+      "target": "du054",
+      "weight": 0.875
+    },
+    {
+      "source": "du125",
+      "target": "du062",
+      "weight": 0.8731
+    },
+    {
+      "source": "du146",
+      "target": "du026",
+      "weight": 0.8667
+    },
+    {
+      "source": "du122",
+      "target": "du182",
+      "weight": 0.8667
+    },
+    {
+      "source": "du194",
+      "target": "du074",
+      "weight": 0.8667
+    },
+    {
+      "source": "du111",
+      "target": "du171",
+      "weight": 0.8662
+    },
+    {
+      "source": "du087",
+      "target": "du027",
+      "weight": 0.8662
+    },
+    {
+      "source": "du063",
+      "target": "du003",
+      "weight": 0.8662
+    },
+    {
+      "source": "du148",
+      "target": "du094",
+      "weight": 0.866
+    },
+    {
+      "source": "du160",
+      "target": "du040",
+      "weight": 0.8625
+    },
+    {
+      "source": "du141",
+      "target": "du021",
+      "weight": 0.8625
+    },
+    {
+      "source": "du198",
+      "target": "du002",
+      "weight": 0.8606
+    },
+    {
+      "source": "du104",
+      "target": "du164",
+      "weight": 0.8583
+    },
+    {
+      "source": "du163",
+      "target": "du103",
+      "weight": 0.8525
+    },
+    {
+      "source": "du135",
+      "target": "du075",
+      "weight": 0.8525
+    },
+    {
+      "source": "du083",
+      "target": "du143",
+      "weight": 0.8517
+    },
+    {
+      "source": "du134",
+      "target": "du014",
+      "weight": 0.8458
+    },
+    {
+      "source": "du159",
+      "target": "du174",
+      "weight": 0.8398
+    },
+    {
+      "source": "du197",
+      "target": "du077",
+      "weight": 0.8333
+    },
+    {
+      "source": "du142",
+      "target": "du052",
+      "weight": 0.8237
+    },
+    {
+      "source": "du071",
+      "target": "du011",
+      "weight": 0.8233
+    },
+    {
+      "source": "du079",
+      "target": "du139",
+      "weight": 0.8225
+    },
+    {
+      "source": "du187",
+      "target": "du007",
+      "weight": 0.8225
+    },
+    {
+      "source": "du167",
+      "target": "du059",
+      "weight": 0.8174
+    },
+    {
+      "source": "du155",
+      "target": "du005",
+      "weight": 0.8108
+    },
+    {
+      "source": "du128",
+      "target": "du053",
+      "weight": 0.804
+    },
+    {
+      "source": "du091",
+      "target": "du151",
+      "weight": 0.795
+    },
+    {
+      "source": "du179",
+      "target": "du119",
+      "weight": 0.795
+    },
+    {
+      "source": "du023",
+      "target": "du173",
+      "weight": 0.7912
+    },
+    {
+      "source": "du009",
+      "target": "du084",
+      "weight": 0.7895
+    },
+    {
+      "source": "du137",
+      "target": "du017",
+      "weight": 0.7833
+    },
+    {
+      "source": "du147",
+      "target": "du038",
+      "weight": 0.7813
+    },
+    {
+      "source": "du030",
+      "target": "du120",
+      "weight": 0.78
+    },
+    {
+      "source": "du028",
+      "target": "du088",
+      "weight": 0.775
+    },
+    {
+      "source": "du004",
+      "target": "du184",
+      "weight": 0.775
+    },
+    {
+      "source": "du199",
+      "target": "du019",
+      "weight": 0.765
+    },
+    {
+      "source": "du162",
+      "target": "du117",
+      "weight": 0.7621
+    },
+    {
+      "source": "du043",
+      "target": "du133",
+      "weight": 0.7525
+    },
+    {
+      "source": "du045",
+      "target": "du101",
+      "weight": 0.7504
+    },
+    {
+      "source": "du056",
+      "target": "du161",
+      "weight": 0.7457
+    },
+    {
+      "source": "du126",
+      "target": "du051",
+      "weight": 0.7421
+    },
+    {
+      "source": "du016",
+      "target": "du046",
+      "weight": 0.7362
+    },
+    {
+      "source": "du152",
+      "target": "du044",
+      "weight": 0.7357
+    },
+    {
+      "source": "du115",
+      "target": "du055",
+      "weight": 0.735
+    },
+    {
+      "source": "du001",
+      "target": "du073",
+      "weight": 0.7315
+    },
+    {
+      "source": "du153",
+      "target": "du129",
+      "weight": 0.7191
+    },
+    {
+      "source": "du093",
+      "target": "du085",
+      "weight": 0.7115
+    },
+    {
+      "source": "du185",
+      "target": "du165",
+      "weight": 0.7092
+    },
+    {
+      "source": "du050",
+      "target": "du037",
+      "weight": 0.7066
+    },
+    {
+      "source": "du033",
+      "target": "du057",
+      "weight": 0.7055
+    },
+    {
+      "source": "du065",
+      "target": "du189",
+      "weight": 0.7045
+    },
+    {
+      "source": "du113",
+      "target": "du177",
+      "weight": 0.6967
+    },
+    {
+      "source": "du081",
+      "target": "du105",
+      "weight": 0.6771
+    },
+    {
+      "source": "du041",
+      "target": "du029",
+      "weight": 0.6563
+    },
+    {
+      "source": "du061",
+      "target": "du013",
+      "weight": 0.644
+    },
+    {
+      "source": "du057",
+      "target": "du157",
+      "weight": 0.6284
+    },
+    {
+      "source": "du178",
+      "target": "du121",
+      "weight": 0.5498
     }
   ]
 }
