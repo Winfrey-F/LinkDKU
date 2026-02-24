@@ -54,7 +54,7 @@ module.exports = {
     sqlitePath: process.env.DB_SQLITE_PATH || './data/linkdku.sqlite'
   },
   adminAuth: {
-    username: process.env.ADMIN_USERNAME || 'yh405',
-    password: process.env.ADMIN_PASSWORD || '123456'
+    username: process.env.ADMIN_USERNAME || '',
+    password: process.env.ADMIN_PASSWORD || ''
   }
 };
