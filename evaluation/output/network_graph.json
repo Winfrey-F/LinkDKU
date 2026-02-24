@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "yh405",
+      "major": "Natural Sciences",
+      "year": "Junior",
+      "languages": [
+        "English",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "yf192",
+      "major": "Natural Sciences",
+      "year": "Sophomore",
+      "languages": [
+        "English",
+        "Chinese"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "yf192",
+      "target": "yh405",
+      "weight": 0.9625
+    }
+  ]
+}

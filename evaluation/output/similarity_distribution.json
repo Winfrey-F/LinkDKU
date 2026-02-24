@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "mean": 0.9625,
+    "median": 0.9625,
+    "std": 0,
+    "min": 0.9625,
+    "max": 0.9625,
+    "count": 1
+  },
+  "histogram": {
+    "0.9": 1
+  },
+  "pairCount": 1
+}
